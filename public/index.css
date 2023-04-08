@@ -1,0 +1,64 @@
+/* Reset */
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* Navibar */
+.navi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 60px;
+    padding: 10px 30px;
+    background-color: #222222;
+    color: #fff;
+}
+
+.navi ul{
+    display: flex;
+    list-style: none;
+}
+
+.navi li {
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* Cards */
+.cards{
+    display: flex;
+
+    
+}
+
+.card{
+    width: 33%;
+    height: 300px;
+
+    padding: 16px;
+    margin: 20px;
+
+    background-color: antiquewhite;
+    border: 2px solid #666666;
+    border-radius: 5px;
+
+    text-align: center;
+}
+
+.card link{
+    text-decoration: none;
+}
+
+/* main */
+.main h2{
+    text-align: center;
+    color: #666666;
+}
+
+.main{
+    padding: 0 20px;
+}

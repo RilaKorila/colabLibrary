@@ -1,11 +1,11 @@
 /* Reset */
-body{
+body {
     padding: 0;
     margin: 0;
 }
 
 /* Navibar */
-.navi{
+.navi {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,7 +16,7 @@ body{
     color: #fff;
 }
 
-.navi ul{
+.navi ul {
     display: flex;
     list-style: none;
 }
@@ -29,13 +29,11 @@ body{
 }
 
 /* Cards */
-.cards{
+.cards {
     display: flex;
-
-    
 }
 
-.card{
+.card {
     width: 33%;
     height: 300px;
 
@@ -49,16 +47,16 @@ body{
     text-align: center;
 }
 
-.card link{
+.card link {
     text-decoration: none;
 }
 
 /* main */
-.main h2{
+.main h2 {
     text-align: center;
     color: #666666;
 }
 
-.main{
+.main {
     padding: 0 20px;
 }

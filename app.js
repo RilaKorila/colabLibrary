@@ -13,7 +13,6 @@ app.use(express.static(`${__dirname}/public`));
 
 // ROUTING
 app.get('/', (req, res) => {
-    greeting = '<h1>Hello From Node on Fly!</h1>';
     res.sendFile('./public/index.html');
 });
 

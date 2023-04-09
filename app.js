@@ -1,3 +1,4 @@
+const e = require('express');
 const express = require('express');
 const morgan = require('morgan');
 const replaceTemplate = require('./modules/replaceTemplate');
@@ -18,7 +19,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/library/', (req, res) => {
-    res.sendFile('./public/index.html');
+    res.sendFile(`${__dirname}/public/index.html`);
 });
 
 app.get('/library/:id', (req, res) => {
@@ -28,9 +29,7 @@ app.get('/library/:id', (req, res) => {
     //     card
     // );
 
-    console.log('./public/template-card.html');
-
-    res.sendFile('./public/template-card.html');
+    res.sendFile(`${__dirname}/public/template-card.html`);
 });
 
 module.exports = app;

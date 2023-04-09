@@ -1,4 +1,3 @@
-const e = require('express');
 const express = require('express');
 const morgan = require('morgan');
 const replaceTemplate = require('./modules/replaceTemplate');

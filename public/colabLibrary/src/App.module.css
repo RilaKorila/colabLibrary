@@ -1,0 +1,39 @@
+/* Reset */
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* Navibar */
+.navi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 60px;
+    padding: 10px 30px;
+    background-color: #222222;
+    color: #fff;
+}
+
+.navi ul {
+    display: flex;
+    list-style: none;
+}
+
+.navi li {
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* main */
+.mainH2 {
+    text-align: center;
+    color: #666666;
+}
+
+.main {
+    padding: 0 20px;
+}
